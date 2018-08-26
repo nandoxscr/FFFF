@@ -9,7 +9,7 @@ HA = gg.choice({
 "⭕AUTO LOBBY⭕", 
 "🎯AUTO LANDING🎯", 
 
-"💌LOBBY MENU💌", 
+"⛩️LOBBY MENU⛩️", 
 
 "💌LANDING MENU💌",
 
