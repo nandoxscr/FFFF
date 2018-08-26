@@ -14,7 +14,7 @@ HA = gg.choice({
 "💌LANDING MENU💌",
 
 "💌Other MENU💌",
-"💕Sayonara👋",
+"💕Exit Script👋",
 
 "                  🅾️Nando Xscr🅾️"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
 
@@ -60,7 +60,7 @@ function Byp()
 
   gg.clearResults(850)
 
-  gg.toast("Hamba Allah was here!")
+  gg.toast("Done Bypassed!")
 
 end
 
@@ -1584,7 +1584,7 @@ end
 
 function Exit()
 
-print(os.date("Script: PUBGM 0.7.0 HambaAllah"))
+print(os.date("Script: PUBGM 0.7.5"))
 
 HA = print("KILL THE GAME")
 
