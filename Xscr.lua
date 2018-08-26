@@ -5,7 +5,7 @@ HOME = 1
 function HOME()
 
 HA = gg.choice({
-"⚒️Bypass⚒️",
+"⛔ Bypass ⛔",
 "⭕AUTO LOBBY⭕", 
 "🎯AUTO LANDING🎯", 
 
