@@ -35,7 +35,7 @@ else
   if HA == 7 then Exit() end
   if HA == 8 then Cp() end
 end
-HambaAllah=1
+HambaAllah=-1
 end
 
 function Byp()
