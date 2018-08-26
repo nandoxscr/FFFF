@@ -15,20 +15,8 @@ HA = gg.choice({
 if HA == nil then
 else
   if HA == 1 then Byp() end
-  if HA == 2 then
-  gg.setVisible(false)
-  pilotLobb = gg.alert("Aktif Auto lobby ?? ","NO","YES")
-  end
-  if pilotLobb == 2 then Ab2() Nrc1() Wca() Sca () Hsh()
-  end
-  if pilotLobb == 1 then end
-  if HA == 3 then
-  gg.setVisible(false)
-  pilotLann = gg.alert("Aktif Auto Landing ??","NO","YES")
-  end
-  if pilotLann == 2 then Whs62() Ngr() Bls()
-  end
-  if pilotLann == 1 then end
+  if HA == 2 then autolobbb() end
+  if HA == 3 then autolannding() end
   if HA == 4 then Lob() end
   if HA == 5 then Lan() end
   if HA == 6 then Ofun() end
@@ -36,6 +24,21 @@ else
   if HA == 8 then Cp() end
 end
 HambaAllah=-1
+end
+
+function autolobbb() 
+pilotLobb = gg.alert("Aktif Auto lobby ?? ","NO","YES")  
+  if pilotLobb == 2 then Ab2() Nrc1() Wca() Sca () Hsh() end  
+  if pilotLobb == 1 then 
+end
+end
+
+function autolannding() 
+pilotLann = gg.alert("Aktif Auto Landing ??","NO","YES")
+  if pilotLann == 2 then Whs62() Ngr() Bls()
+  end
+  if pilotLann == 1 then
+end
 end
 
 function Byp()
