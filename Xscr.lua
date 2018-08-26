@@ -11,7 +11,7 @@ HA = gg.choice({
 
 "⛩️LOBBY MENU⛩️", 
 
-"💌LANDING MENU💌",
+"🚨LANDING MENU🚨",
 
 "💌Other MENU💌",
 "❌Exit Script👋",
