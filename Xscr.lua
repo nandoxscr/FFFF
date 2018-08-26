@@ -13,7 +13,7 @@ HA = gg.choice({
 
 "🚨LANDING MENU🚨",
 
-"💌Other MENU💌",
+"⏳Other MENU⏳",
 "❌Exit Script👋",
 
 "                  🅾️Nando Xscr🅾️"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
