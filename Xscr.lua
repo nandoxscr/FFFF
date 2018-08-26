@@ -1,73 +1,118 @@
 
 
-HOME = 1
-function HOME()
+HOME = 1
+
+function HOME()
+
 HA = gg.choice({
 "🛡️Bypass🛡︄",
 "⭕AUTO LOBBY⭕", 
-"🎯AUTO LANDING🎯", 
-"💌LOBBY MENU💌", 
-"💌LANDING MENU💌",
-"💌Other MENU💌","💕Sayonara👋",
-"                  🅾️Nando Xscr🅾️"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+"🎯AUTO LANDING🎯", 
+
+"💌LOBBY MENU💌", 
+
+"💌LANDING MENU💌",
+
+"💌Other MENU💌",
+"💕Sayonara👋",
+
+"                  🅾️Nando Xscr🅾️"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+
   if HA == 1 then Byp() end
   if HA == 2 then Ab2() Nrc1() Wca() Sca () Hsh() end
-  if HA == 3 then Whs62() Ngr() Bls() end
-  if HA == 4 then Lob() end
-  if HA == 5 then Lan() end
-  if HA == 6 then Ofun() end
-  if HA == 7 then Exit() end
-  if HA == 8 then Cp() end
-HambaAllah=-1
+  if HA == 3 then Whs62() Ngr() Bls() end
+
+  if HA == 4 then Lob() end
+
+  if HA == 5 then Lan() end
+
+  if HA == 6 then Ofun() end
+
+  if HA == 7 then Exit() end
+
+  if HA == 8 then Cp() end
+
+HambaAllah=-1
+
 end
 
-function Byp()
-  gg.toast("Hamba Allah harus bersabar")
-  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.clearResults()
-  gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-  gg.clearResults(850)
-  gg.toast("Hamba Allah was here!")
+function Byp()
+
+  gg.toast("Load bypass" )
+
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.clearResults()
+
+  gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.getResults(100)
+
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.clearResults(850)
+
+  gg.toast("Hamba Allah was here!")
+
 end
 
 function Lob()
-gg.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+gg.alert("ID: Jangan gunakan -MagicBullet- Kalo lo mau pake Headshot!\n\nEN: Don't use -MagicBullet- if you want to use Headshot!\n\nJP: ヘッドショットを使用する場合は、MagicBulletを使用しないでください！\n\nKR: 헤드 샷을 사용하려면 Magic Bullet을 사용하지 마십시오!\n\nRU: Не используйте Magic Bullet, если вы хотите использовать Headshot!\n\nSA: لا تستخدم Magic Bullet إذا كنت تريد استخدام Headshot!")
+
 HA2 = gg.multiChoice({
   "🆎Brutal AimBot",
   "🆎Ultra AimBot",
   "🆎Medium AimBot",
-  "🆎Micro AimBot",
+  "🆎Micro AimBot",
+
   "🔷No Recoil (NEW)",
   "🔷No Recoil (EZ)",
-  "💢Magic Bullet HA1",
+  "💢Magic Bullet HA1",
+
   "💢Magic Bullet HA2",
-  "💢Magic Bullet HA3",
-  "🏳️White Color (ALL DEVICE)",
-  "🏴Black Color (ALL DEVICE)",
-  "➕Small Crosshair",
-  "🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+  "💢Magic Bullet HA3",
+
+  "🏳️White Color (ALL DEVICE)",
+
+  "🏴Black Color (ALL DEVICE)",
+
+  "➕Small Crosshair",
+
+  "🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+
 if HA2 == nil then else
-if HA2[1] == true then Ab1() end
+if HA2[1] == true then Ab1() end
+
 if HA2[2] == true then Ab2() end
 if HA2[3] == true then Ab3() end
-if HA2[4] == true then Ab4() end
+if HA2[4] == true then Ab4() end
+
 if HA2[5] == true then Nrc1() end
 if HA2[6] == true then Nrc2() end
-if HA2[7] == true then Mb1() end
+if HA2[7] == true then Mb1() end
+
 if HA2[8] == true then Mb2() end
-if HA2[9] == true then Mb3() end
-if HA2[10] == true then Wca() end
-if HA2[11] == true then Bca() end
-if HA2[12] == true then Sca() end
+if HA2[9] == true then Mb3() end
+
+if HA2[10] == true then Wca() end
+
+if HA2[11] == true then Bca() end
+
+if HA2[12] == true then Sca() end
+
 if HA2[13] == true then HOME() end
-end
-HambaAllah = -1
+end
+
+HambaAllah = -1
+
 end
 
 function Sca()
@@ -100,16 +145,25 @@ gg.clearResults()
 gg.toast("Kutukan Putih Activated!")
 end
 
-function Mb1()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)         
-gg.searchNumber('15;28;16;26;8;18',gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.searchNumber('15;28;16;26;8;18', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(56) 
-gg.editAll('75', gg.TYPE_FLOAT) 
-gg.toast("Magic Bullet 1 Actived!!")
+function Mb1()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)         
+
+gg.searchNumber('15;28;16;26;8;18',gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+
+gg.searchNumber('15;28;16;26;8;18', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+
+gg.getResults(56) 
+
+gg.editAll('75', gg.TYPE_FLOAT) 
+
+gg.toast("Magic Bullet 1 Actived!!")
+
 end
-
+
+
 function Mb2()
 gg.setRanges(32)
 gg.clearResults()
@@ -120,7 +174,8 @@ gg.editAll("75", 16)
 gg.clearResults()
 gg.toast("Magic Bullet 2 Activated!!")
 end
-
+
+
 function Mb3()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.clearResults()
@@ -132,21 +187,36 @@ function Mb3()
   gg.toast("Magic Bullet 3 Activated!")
 end
 
- function Nrc2()
-gg.clearResults()
-gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("1868756421", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("100000", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("No recoil Successful")
-end
-
+ function Nrc2()
+
+gg.clearResults()
+
+gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(1000)
+
+gg.editAll("1868756421", gg.TYPE_DWORD)
+
+gg.clearResults()
+
+gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(1000)
+
+gg.editAll("100000", gg.TYPE_DWORD)
+
+gg.clearResults()
+
+gg.toast("No recoil Successful")
+
+end
+
+
+
 
 function Nrc1() -- No Recoil New
     gg.setRanges(gg.REGION_ANONYMOUS)
@@ -163,48 +233,85 @@ function Nrc1() -- No Recoil New
     gg.editAll("100000", gg.TYPE_DWORD)
     gg.clearResults()
     gg.toast("New No Recoil JOSS!")
-  end
+  end
 
-function Ab1()
-gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
+
+function Ab1()
+
+gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
 gg.clearResults()
-gg.toast("Loading.. Sabar dek..")
-gg.clearResults()
-gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("-1.0e10", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearResults()
-gg.clearResults()
-gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)  
-gg.getResults(1000)  
-gg.editAll("65.5", gg.TYPE_FLOAT)
-gg.clearResults() gg.toast("Jangan Galak Kasihan anak orang!!😢")
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.clearResults()
+gg.toast("Loading.. Sabar dek..")
+
+gg.clearResults()
+
+gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(300)
+
+gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.clearResults()
+
+gg.clearResults()
+
+gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)  
+
+gg.getResults(1000)  
+
+gg.editAll("65.5", gg.TYPE_FLOAT)
+
+gg.clearResults() gg.toast("Jangan Galak Kasihan anak orang!!😢")
+
 end
 
-function Ab2()
-gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.clearResults()
-gg.clearResults()
-gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("-1.0e10", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_ANONYMOUS)
+function Ab2()
+
+gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
 gg.clearResults()
-gg.toast ("Loading, Sabar dek..")
-gg.clearResults()
-gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)  
-gg.getResults(1000)  
-gg.editAll("65.5", gg.TYPE_FLOAT)
-gg.clearResults() gg.toast("Lumayan AimBot Active!!")
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.clearResults()
+
+gg.clearResults()
+
+gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(300)
+
+gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.clearResults()
+gg.toast ("Loading, Sabar dek..")
+
+gg.clearResults()
+
+gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)  
+
+gg.getResults(1000)  
+
+gg.editAll("65.5", gg.TYPE_FLOAT)
+
+gg.clearResults() gg.toast("Lumayan AimBot Active!!")
+
 end
 
 function Ab3()
@@ -246,9 +353,11 @@ HA3 = gg.multiChoice({
 "🥓AimLock",
 "🌈Sit Scope",
 "📻Lift Sit Scope",
-"🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+"🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+
 if HA3 == nil then else
-if HA3[1] == true then Wh() end
+if HA3[1] == true then Wh() end
+
 if HA3[2] == true then Col() end
 if HA3[3] == true then Head() end
 if HA3[4] == true then Ant() end
@@ -262,21 +371,36 @@ end
 HambaAllah = -1
 end
 
-function Ailo()
-gg.clearResults() 
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber('0.37999999523F; 1.0F :6', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
-gg.searchNumber('0.37999999523', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
-gg.getResults(0) 
-gg.editAll('0.37999999522', gg.TYPE_FLOAT) 
-gg.toast('Load50%') 
-gg.clearResults() 
-gg.setRanges(gg.REGION_ANONYMOUS) 
-gg.searchNumber('3F', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
-gg.searchNumber('3', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
-gg.getResults(1) 
-gg.editAll('2000000000', gg.TYPE_FLOAT) 
-gg.toast("Lengket nich..😆")
+function Ailo()
+
+gg.clearResults() 
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber('0.37999999523F; 1.0F :6', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
+
+gg.searchNumber('0.37999999523', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
+
+gg.getResults(0) 
+
+gg.editAll('0.37999999522', gg.TYPE_FLOAT) 
+
+gg.toast('Load50%') 
+
+gg.clearResults() 
+
+gg.setRanges(gg.REGION_ANONYMOUS) 
+
+gg.searchNumber('3F', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
+
+gg.searchNumber('3', gg.TYPE_FLOAT, false, gg.SIGN_FLOAT, 0, -1) 
+
+gg.getResults(1) 
+
+gg.editAll('2000000000', gg.TYPE_FLOAT) 
+
+gg.toast("Lengket nich..😆")
+
 end
 
 function Sits()
@@ -290,13 +414,20 @@ function Sits()
   gg.toast("Tanduk Uncal Aktip!!")
 end
 
-function Lifs()
-  gg.clearResults() gg.setRanges(gg.REGION_ANONYMOUS)   
-  gg.searchNumber("1 152 319 488D;1 036 831 949D;1 148 846 080D;1 118 830 592D;60F;1 112 014 848D::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.getResults(100)
-  gg.editAll("-330", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.alert('Lift sit Aktif !!')
+function Lifs()
+
+  gg.clearResults() gg.setRanges(gg.REGION_ANONYMOUS)   
+
+  gg.searchNumber("1 152 319 488D;1 036 831 949D;1 148 846 080D;1 118 830 592D;60F;1 112 014 848D::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.getResults(100)
+
+  gg.editAll("-330", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+  gg.alert('Lift sit Aktif !!')
+
   end
   
 function Wh()
@@ -499,7 +630,8 @@ gg.getResults(20)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("Wallhack SD 625 aktip!")
-end
+end
+
 
 
 function Whs42()
@@ -679,39 +811,68 @@ gg.editAll("-666", gg.TYPE_DWORD)
 gg.toast("Pinky boy aktip!")
 end
 
-function Red()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.4012985e-45;1.0863213e-19;1.4012985e-44")
-gg.searchNumber("1.4012985e-45",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.getResults(100)
-gg.editAll("1.4012985e-44",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("32,768;-2,134,900,722",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
-gg.searchNumber("32768",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
-gg.getResults(10)
-gg.editAll("32777",gg.TYPE_DWORD)
-gg.toast('Merah Dajal!!')
+function Red()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_BAD)
+
+gg.searchNumber("1.4012985e-45;1.0863213e-19;1.4012985e-44")
+
+gg.searchNumber("1.4012985e-45",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+
+gg.getResults(100)
+
+gg.editAll("1.4012985e-44",gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.searchNumber("32,768;-2,134,900,722",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+
+gg.searchNumber("32768",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+
+gg.getResults(10)
+
+gg.editAll("32777",gg.TYPE_DWORD)
+
+gg.toast('Merah Dajal!!')
+
 end
 
-function Yel()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;16",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
-gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
-gg.getResults(30)
-gg.editAll("14",gg.TYPE_DWORD)
-gg.toast('Kuning taii 😂')
+function Yel()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_BAD)
+
+gg.searchNumber("8200;16",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+
+gg.searchNumber("8200",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0,-1)
+
+gg.getResults(30)
+
+gg.editAll("14",gg.TYPE_DWORD)
+
+gg.toast('Kuning taii 😂')
+
 end
 
-function Whi() -- White
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("0.05499718338;1.0",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.getResults(100)
-gg.editAll("9999",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast('Cieee putih 😂')
+function Whi() -- White
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("0.05499718338;1.0",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+
+gg.getResults(100)
+
+gg.editAll("9999",gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast('Cieee putih 😂')
+
 end
 
 function Gre() -- New Green --
@@ -813,20 +974,34 @@ function AHea()
 end
   
   
-  function AAlw()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.clearResults()
-  gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1995)
-  gg.editAll("19995", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1995)
-  gg.editAll("19995", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("Antena ngaceng!!")
+  function AAlw()
+
+  gg.setRanges(gg.REGION_ANONYMOUS)
+
+  gg.clearResults()
+
+  gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.getResults(1995)
+
+  gg.editAll("19995", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+
+  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.getResults(1995)
+
+  gg.editAll("19995", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+  gg.toast("Antena ngaceng!!")
+
   end
 
 function ARun()
@@ -864,100 +1039,182 @@ Fr = gg.multiChoice({
   HambaAllah=-1
   end
 
-function ASMG() 
-gg.clearResults()
-gg.setRanges (gg.REGION_ANONYMOUS) 
-gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(800)
-gg.editAll("500000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
+function ASMG() 
+
+gg.clearResults()
+
+gg.setRanges (gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(800)
+
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
 end
 
-function VSS()
-gg.clearResults()
-gg.setRanges (gg.REGION_ANONYMOUS) 
-gg.searchNumber("33000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
+function VSS()
+
+gg.clearResults()
+
+gg.setRanges (gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("33000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(100)
+
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
 end
 
-function M24() 
-gg.clearResults()
-gg.setRanges (gg.REGION_ANONYMOUS) 
-gg.searchNumber("79000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
+function M24() 
+
+gg.clearResults()
+
+gg.setRanges (gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("79000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(100)
+
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
 end
 
-function a98K() 
-gg.clearResults()
-gg.setRanges (gg.REGION_ANONYMOUS) 
-gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
+function a98K() 
+
+gg.clearResults()
+
+gg.setRanges (gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(100)
+
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
 end
 
-function M4A1()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50)
-gg.editAll("0.04200000272", gg.TYPE_FLOAT)
-gg.toast('Aktip!!')
-end
-
-function SCAR()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50)
-gg.editAll("0.04800000022", gg.TYPE_FLOAT)
-gg.toast('Aktip!!')
-end
-
-function AKM()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50)
-gg.editAll("0.001", gg.TYPE_FLOAT)
-gg.toast('Aktip!!')
-end
-
-function M16() 
-gg.clearResults()
-gg.setRanges (gg.REGION_ANONYMOUS) 
-gg.searchNumber("90000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
-end
-
-function AWM() 
-gg.clearResults()
-gg.setRanges (gg.REGION_ANONYMOUS) 
-gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
+function M4A1()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(50)
+
+gg.editAll("0.04200000272", gg.TYPE_FLOAT)
+
+gg.toast('Aktip!!')
+
+end
+
+
+
+function SCAR()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(50)
+
+gg.editAll("0.04800000022", gg.TYPE_FLOAT)
+
+gg.toast('Aktip!!')
+
+end
+
+
+
+function AKM()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(50)
+
+gg.editAll("0.001", gg.TYPE_FLOAT)
+
+gg.toast('Aktip!!')
+
+end
+
+
+
+function M16() 
+
+gg.clearResults()
+
+gg.setRanges (gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("90000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(100)
+
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
+end
+
+
+
+function AWM() 
+
+gg.clearResults()
+
+gg.setRanges (gg.REGION_ANONYMOUS) 
+
+gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(100)
+
+gg.editAll("500000", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
 end
   
 function Sco()
 Scp = gg.choice({
-	"🌅Scope 4X",
-	"🌅OFF Scope 4X",
-	"🌅Scope 8X",
+	"🌅Scope 4X",
+
+	"🌅OFF Scope 4X",
+
+	"🌅Scope 8X",
+
 	"🌅OFF Scope 8X",
 	"🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
   if Scp == 1 then z4x() end
@@ -968,48 +1225,90 @@ Scp = gg.choice({
   HambaAllah=-1
   end
 
-function z4x()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("20", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Successful Activation")
-end
-
-function z4o()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;20;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("55", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Successful Activation")
-end
-
-function z8x()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("15", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Successful Activation")
-end
-
-function z8o()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;15;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(300)
-gg.editAll("55", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Successful Activation")
+function z4x()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(300)
+
+gg.editAll("20", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Successful Activation")
+
+end
+
+
+
+function z4o()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("60;20;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(300)
+
+gg.editAll("55", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Successful Activation")
+
+end
+
+
+
+function z8x()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(300)
+
+gg.editAll("15", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Successful Activation")
+
+end
+
+
+
+function z8o()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("60;15;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(300)
+
+gg.editAll("55", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Successful Activation")
+
 end
 
 function Ofun()
@@ -1090,15 +1389,24 @@ end
 
 
 
-function Sphl()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("1.7", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("Micro Speedhack Activated!")
+function Sphl()
+
+  gg.clearResults()
+
+  gg.setRanges(gg.REGION_ANONYMOUS)
+
+  gg.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.getResults(100)
+
+  gg.editAll("1.7", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+  gg.toast("Micro Speedhack Activated!")
+
 end
 
 function Sph()
@@ -1122,25 +1430,44 @@ end
 
 
 
-function Jsp()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("-999", gg.TYPE_FLOAT)
-gg.toast('Success')
-end
-
-function Jwt()
-gg.clearResults()
-gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResultCount()
-gg.searchNumber(45, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResultCount()
-gg.getResults(100)
-gg.editAll("99996", gg.TYPE_FLOAT)
-gg.toast('Success')
-end
+function Jsp()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(10)
+
+gg.editAll("-999", gg.TYPE_FLOAT)
+
+gg.toast('Success')
+
+end
+
+
+
+function Jwt()
+
+gg.clearResults()
+
+gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResultCount()
+
+gg.searchNumber(45, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResultCount()
+
+gg.getResults(100)
+
+gg.editAll("99996", gg.TYPE_FLOAT)
+
+gg.toast('Success')
+
+end
+
 
 
 function Snl()
@@ -1153,17 +1480,28 @@ function Snl()
   gg.toast("Musim salju!")
 end
 
-function Bls()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.clearResults()
-  gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
-  gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("-99", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.toast("Langit Kiamat!!")
+function Bls()
+
+  gg.clearResults()
+
+  gg.setRanges(gg.REGION_BAD)
+
+  gg.clearResults()
+
+  gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+
+  gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+
+  gg.getResults(100)
+
+  gg.editAll("-99", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+  gg.setRanges(gg.REGION_ANONYMOUS)
+
+  gg.toast("Langit Kiamat!!")
+
 end
 
 function Bll()
@@ -1204,41 +1542,75 @@ function Ngrt()
 end
 
 
-function Wsh()
-gg.setRanges(gg.REGION_C_BSS)
-gg.clearResults()
-gg.searchNumber("869,711,765D;2;1::55",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.searchNumber("2",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
-gg.getResults(2)
-gg.editAll("-999",gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Aktip!!")
-gg.alert("Lo harus nempel ke tembok. Hanya 1 tembok depan lawan.\n\nYou have to stick to the wall. Only 1 front wall of the enemy.")
+function Wsh()
+
+gg.setRanges(gg.REGION_C_BSS)
+
+gg.clearResults()
+
+gg.searchNumber("869,711,765D;2;1::55",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+
+gg.searchNumber("2",gg.TYPE_FLOAT,false,gg.SIGN_EQUAL,0,-1)
+
+gg.getResults(2)
+
+gg.editAll("-999",gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.toast("Aktip!!")
+
+gg.alert("Lo harus nempel ke tembok. Hanya 1 tembok depan lawan.\n\nYou have to stick to the wall. Only 1 front wall of the enemy.")
+
 end
 
-function Cp()
-TC = gg.choice({"Email📩: nnwwpp77@gmail.com",
-"🅾️Youtube: Gapunya wkwkwk",
-"🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
-if TC == 1 then CT() end
-if TC == 2 then CT() end
-if TC == 3 then HOME() end
-HambaAllah=-1
+function Cp()
+
+TC = gg.choice({"Email📩: nnwwpp77@gmail.com",
+
+"🅾️Youtube: Gapunya wkwkwk",
+
+"🏠Home"},nil,"PUBG MOBILE 0.7.5 FREE v2.0\n🅾️NO CHEAT NO WIN xD")
+
+if TC == 1 then CT() end
+
+if TC == 2 then CT() end
+
+if TC == 3 then HOME() end
+
+HambaAllah=-1
+
 end
 
-function Exit()
-print(os.date("Script: PUBGM 0.7.0 HambaAllah"))
-HA = print("KILL THE GAME")
-print("🅾️NO CHEAT NO WIN xD")
-print("Email: nnwwpp77@gmail.com")
-os.exit()
-end
-
-while true do
-if gg.isVisible(true) then
-HambaAllah = 1
-gg.setVisible(false) 
-end
-gg.clearResults()
-if HambaAllah == 1 then HOME() end
+function Exit()
+
+print(os.date("Script: PUBGM 0.7.0 HambaAllah"))
+
+HA = print("KILL THE GAME")
+
+print("🅾️NO CHEAT NO WIN xD")
+
+print("Email: nnwwpp77@gmail.com")
+
+
+os.exit()
+
+end
+
+
+
+while true do
+
+if gg.isVisible(true) then
+
+HambaAllah = 1
+
+gg.setVisible(false) 
+
+end
+
+gg.clearResults()
+
+if HambaAllah == 1 then HOME() end
+
 end
