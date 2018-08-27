@@ -1,9 +1,7 @@
 
 
   
-gg.alert('=================\n
-	=   ChangeLog    =\n
-	=================', 'Ok') 
+gg.alert('=================\n=   ChangeLog    =\n=================', 'Ok') 
 gg.setVisible(true) 
 while true do 	
         if gg.isVisible(true) 
