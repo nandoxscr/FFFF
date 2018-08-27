@@ -1,14 +1,14 @@
 
 
   
-gg.alert('=================\n=   ChangeLog    =\n=================', 'Ok') 
+gg.alert('=================\n=     ChangeLog      =\n=================', 'Ok') 
 
 gg.setVisible(true) 
 while true do 	
-        if gg.isVisible() 
+        if gg.isVisible(true) 
             then 	
 	       gg.setVisible(false) 		
-     doAction() 	
+os.exit()
 end 	
 gg.sleep(100)
 end
