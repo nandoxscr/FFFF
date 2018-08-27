@@ -1,91 +1,52 @@
---------------------------
---- Script wrote by
---- Nando Xscr Function 
---- fb.com/inisedot
---------------------------
+Loadf = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/Xscr.txt' 
+Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
 
-Qjctx = 1
+function doAction() 
+    local ret = 
+       gg.alert('    💻 Loader Auto Update 🖥️\n      🔥 By : Nando Xscr 🔥\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\n           🛎️Always Read🛎️ \n 📣Change Log for Information📣\n-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\n\n', 
+              'OK', 'See Changelog', 'Exit') 	
+       if ret == 1 then                 
+            doRequest() 
+                  os.exit()
+                end
+       if ret == 2 then
+            doChangelog() 
+                end
+       if ret == 3 then 
+    os.exit() 
+end 
+--coding By NandoXscr
+Nwpp = 1
+end 
+
+function doRequest() 
+gg.setVisible(true) 
+local data = assert(load(gg.makeRequest(Loadf).content))
+return data()
+end
+
+function doChangelog()
+gg.alert(gg.makeRequest(Loadc).content) 
+Nwpp = -1
+end
+
+
+while true do
 
 if gg.isVisible(true) then
-  gg.setVisible(false)
+
+Nwpp = 1
+
+gg.setVisible(false) 
+
 end
 
-on = '[ON]'
-off = '[OFF]'
-cstatus = off
-ostatus = off
+gg.clearResults()
 
-function pstatus()
-  if cstatus == on then
-    cstatus = on
-  else
-    cstatus = off
-  end
+if Nwpp == 1 then doAction() 
+end
+gg.sleep(100)
 end
 
-function main()
-  menu = gg.choice({
-    cstatus .. ' Cara Pertama',
-	ostatus .. ' Cara Kedua', 
-	'Exit'},
-	nil,
-	'Tes On/Off Function on GG ')
-  if menu == 1 then
-	if cstatus == on then -- Cek cstatus jika [ON]
-	  cstatus = off -- Jika iya maka mengatur status ke [OFF]
-	else
-	  cstatus = on -- Jika tidak maka mengatur status ke [ON]
-	end
-    doCheat() -- Cek jika status sudah benar maka akan memanggil fungsi Cheat
-  elseif menu == 2 then
-	cheatTrigger()
-  elseif menu == 3 then
-    os.exit()
-  end
-  Qjctx =-1
-end
-  
-function doCheat()
-  if cstatus == on then -- Cek Jika status [ON]
-    gg.toast('Enable! ') -- Jika iya, masukan fungsi pemanggil cheat ON dsni
-  else
-    gg.toast('Disable! ') -- Jika tidak, masukan fungsi pemanggil cheat Off dsni
-  end
-end
 
--------------------------------------------------- Ini adalah Cara kedua  --------------------------------------------------
 
-function cheatTrigger()
-  if ostatus == on then -- Cek jika ostatus [ON]
-    ostatus = off -- mengatur fungsi prefix ke [OFF]
-	nstatus() -- mengembalikan ostatus var
-	gg.toast('Disable! ')
-  else
-    ostatus = on
-	nstatus()
-    gg.toast('Enable!')
-  end
-end
-
-function nstatus()
-  if ostatus == on then
-    ostatus = on
-  else
-    ostatus = off
-  end
-end
-
--------------------------------------------------------------------------------------------------------------------
-
-main()
-
-while true do -- Biarkan Fungsi Selalu Berjalan 
-    if gg.isVisible(true) then
-        gg.setVisible(false)
-        Qjctx = 1
-    end
-    gg.sleep(100)
-	if Qjctx == 1 then
-		main()
-	end
-end
