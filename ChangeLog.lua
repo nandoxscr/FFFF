@@ -1,7 +1,7 @@
 
 
   
-gg.alert('Tes', 'Ok') 
+gg.alert('Tes', 'Ok', nil, 'aaaaaaaaaa' ) 
 gg.setVisible(true) 
 while true do 	
         if gg.isVisible(true) 
