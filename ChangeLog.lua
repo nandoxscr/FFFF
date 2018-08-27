@@ -5,10 +5,10 @@ gg.alert('=================\n=   ChangeLog    =\n=================', 'Ok')
 
 gg.setVisible(true) 
 while true do 	
-        if gg.isVisible(true) 
+        if gg.isVisible() 
             then 	
-	       gg.setVisible(false) 
-    os.exit()
+	       gg.setVisible(false) 		
+     doAction() 	
 end 	
 gg.sleep(100)
 end
