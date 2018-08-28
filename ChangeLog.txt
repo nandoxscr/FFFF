@@ -1,9 +1,14 @@
+
 =======================
 ===  ⚠️ChangeLog⚠️  ===
 =======================
-
-v.1.1
--Release
--New Function All
--Bug Fixed
-
+      v.1.2
+  -New Loader Updet
+  -Change Function HS
+  -Remove Some Function
+  -Bug Fixed
+  
+      v.1.1
+  -Release
+  -New Function All
+  -Bug Fixed
