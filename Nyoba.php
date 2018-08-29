@@ -15819,7 +15819,7 @@ end
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
-
+local v_value=gg.prompt({'Enter password'},{[1]=0},{[1]='number'})
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
@@ -17177,7 +17177,7 @@ pcall(enc)
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
-local v_value=gg.prompt({'Enter password'},{[1]=0},{[1]='number'})
+
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
 --[[Nyari Apa Hayoooo?? XD]]--
