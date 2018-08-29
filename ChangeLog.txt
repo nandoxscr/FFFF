@@ -1,7 +1,16 @@
 
 =======================
-===  ⚠️ChangeLog⚠️  ===
+===  ⚠️ChangeLog⚠️   ===
 =======================
+      v.1.3
+  -New Hack Fucntion All
+  -Remove Some Function
+  -Change Some Function
+  -Add Menu for Emu
+  -New Headshot
+  -Add No Foot Step
+  -Bug Fixed
+
       v.1.2
   -New Loader Updet
   -Change Function HS
@@ -12,3 +21,4 @@
   -Release
   -New Function All
   -Bug Fixed
+ 
