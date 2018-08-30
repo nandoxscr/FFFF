@@ -2,7 +2,11 @@
 =======================
 ===  ⚠️ChangeLog⚠️   ===
 =======================
-      v.1.3
+      v.1.4(30/08/2018)
+  -Add Menu Game 2
+  -Bug Fixed
+  
+      v.1.3(25/08/2018)
   -New Hack Fucntion All
   -Remove Some Function
   -Change Some Function
@@ -11,13 +15,13 @@
   -Add No Foot Step
   -Bug Fixed
 
-      v.1.2
+      v.1.2(16/08/2018)
   -New Loader Updet
   -Change Function HS
   -Remove Some Function
   -Bug Fixed
   
-      v.1.1
+      v.1.1(17/08/2018)
   -Release
   -New Function All
   -Bug Fixed
