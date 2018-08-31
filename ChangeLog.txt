@@ -2,6 +2,10 @@
 =======================
 ===  ⚠️ChangeLog⚠️   ===
 =======================
+      v.1.4.b1
+  -Add fitur JeepSpeed
+  -Bug Fixed
+
       v.1.4(30/08/2018)
   -Add Menu Game 2
   -Bug Fixed
