@@ -3,7 +3,7 @@
 ===  ⚠️ChangeLog⚠️   ===
 =======================
       v.1.5(02/09/2018)
-   -Bug Fixed
+   -MIKO NOOB HaHa
 
       v.1.4.1(31/08/2018)
   -Add fitur JeepSpeed
