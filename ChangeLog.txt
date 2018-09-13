@@ -2,6 +2,12 @@
 =======================
 ===  ⚠️ChangeLog⚠️   ===
 =======================
+      v.1.6(13/09/2018)
+   -MIKO STILL NOOB
+   -New Function 0.8
+   -All New Fitur
+   -Bug Fixed
+   
       v.1.5(02/09/2018)
    -MIKO NOOB HaHa
 
