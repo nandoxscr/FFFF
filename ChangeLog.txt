@@ -2,6 +2,10 @@
 =======================
 ===  ⚠️ChangeLog⚠️   ===
 =======================
+      v.1.6.1(16/09/2018)
+   -Fix Force Close Lobby
+   -Bug Fixed
+   
       v.1.6(13/09/2018)
    -MIKO STILL NOOB
    -New Function 0.8
