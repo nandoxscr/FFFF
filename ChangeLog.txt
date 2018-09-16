@@ -3,6 +3,7 @@
 ===  ⚠️ChangeLog⚠️   ===
 =======================
       v.1.6.1(16/09/2018)
+   -TEMON NOOB  
    -Fix Force Close Lobby
    -Bug Fixed
    
