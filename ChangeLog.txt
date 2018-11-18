@@ -3,7 +3,7 @@
 ===  ⚠️ChangeLog⚠️   ===
 =======================
       v.2.r4(18/11/2018)
-   -Fix Fiture
+   -asu
    -Fix Update
    -New Bypass 
  
