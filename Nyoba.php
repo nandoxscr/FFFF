@@ -1,4 +1,8 @@
 
+gg.require("8.68.4")
+gg.setRanges(bit32.bxor(gg.REGION_ANONYMOUS, gg.REGION_C_ALLOC, gg.REGION_JAVA_HEAP, gg.REGION_C_HEAP, gg.REGION_C_DATA, gg.REGION_C_BSS, gg.REGION_BAD, gg.REGION_PPSSPP))
+gg.skipRestoreState()
+
 Loadf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/starthack.txt' 
 Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
 let = gg.makeRequest
@@ -49,7 +53,7 @@ gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
-gg.toast(" Bypass Done ")
+
 gg.alert("Kupon Noob")
 end
 function doRequest() 
