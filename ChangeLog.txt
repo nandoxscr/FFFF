@@ -2,6 +2,11 @@
 =======================
 ===  ⚠️ChangeLog⚠️   ===
 =======================
+      v.2.r4(18/11/2018)
+   -Fix Fiture
+   -Fix Update
+   -New Bypass 
+ 
       v.1.6.1(16/09/2018)
    -TEMON NOOB  
    -Fix Force Close Lobby
