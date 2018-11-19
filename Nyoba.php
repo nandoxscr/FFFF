@@ -88,5 +88,5 @@ doRequest()
   end
 end
 
-doMT()
---usebypass()
+doChangelog()
+usebypass()
