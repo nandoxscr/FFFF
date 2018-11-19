@@ -69,6 +69,7 @@ end
 
 function doMT()
 gg.alert(let(Loadd).content) 
+os.exit()
 end
 
 function usebypass()
@@ -87,5 +88,5 @@ doRequest()
   end
 end
 
-doChangelog()
+doMT()
 usebypass()
