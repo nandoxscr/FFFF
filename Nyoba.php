@@ -62,12 +62,13 @@ gg.setVisible(true)
 local data = assert(load(let(Loadf).content))
 return data()
 end
+
 function doChangelog()
 gg.alert(let(Loadc).content) 
--- gg.alert(let(Loadd).content) -- if Maintance
 end
+
 function doMT()
-gg.alert(let(Loadd).content) -- if Maintance
+gg.alert(let(Loadd).content) 
 end
 
 function usebypass()
