@@ -5,7 +5,7 @@ gg.skipRestoreState()
 
 Loadf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/starthack.txt' 
 Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
-Loadd = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
+Loadd = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/Maintance.txt' 
 let = gg.makeRequest
 
 if gg.getTargetPackage() ~= "com.tencent.ig" then
@@ -64,7 +64,12 @@ return data()
 end
 function doChangelog()
 gg.alert(let(Loadc).content) 
+-- gg.alert(let(Loadd).content) -- if Maintance
 end
+function doMT()
+gg.alert(let(Loadd).content) -- if Maintance
+end
+
 function usebypass()
   if gg.choice({
     "\226\158\164 Bypass + Start Hack",
