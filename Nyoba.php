@@ -1,5 +1,5 @@
 
-gg.require("8.68.4")
+gg.require("8.68.5")
 gg.setRanges(bit32.bxor(gg.REGION_ANONYMOUS, gg.REGION_C_ALLOC, gg.REGION_JAVA_HEAP, gg.REGION_C_HEAP, gg.REGION_C_DATA, gg.REGION_C_BSS, gg.REGION_BAD))
 gg.skipRestoreState()
 
@@ -76,14 +76,14 @@ function usebypass()
   if gg.choice({
     "\226\158\164 Bypass + Start Hack",
     "\226\158\164 Start Hack"
-  }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.4\n\226\149\154VERSI SEKARANG\t\t :\tv" .. gg.VERSION) == 1 then
+  }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t :\tv" .. gg.VERSION) == 1 then
 AntiCrash()
 doRequest()
   end
    if gg.choice({
     "\226\158\164 Bypass + Start Hack",
     "\226\158\164 Start Hack"
-  }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.4\n\226\149\154VERSI SEKARANG\t\t  :\tv" .. gg.VERSION) == 2 then
+  }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t  :\tv" .. gg.VERSION) == 2 then
   doRequest()
   end
 end
