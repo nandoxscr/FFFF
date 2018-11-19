@@ -5,6 +5,7 @@ gg.skipRestoreState()
 
 Loadf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/starthack.txt' 
 Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
+Loadd = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
 let = gg.makeRequest
 
 if gg.getTargetPackage() ~= "com.tencent.ig" then
