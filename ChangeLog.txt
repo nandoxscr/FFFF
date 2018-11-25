@@ -1,7 +1,13 @@
 
 =======================
-===  ⚠️ChangeLog⚠️    ===
+===   ⚠️ChangeLog⚠️    ===
 =======================
+      v.2.4(26/11/2018)
+   -Added Blacksy
+   -Remove some func
+   -Added Checklist
+   -Fix bug
+   
       v.2.3b(24/11/2018)
    -Added Sit Scope
    -Change Bypass
