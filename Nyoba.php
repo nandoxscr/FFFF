@@ -76,5 +76,5 @@ doRequest()
   end
 end
 --[[ Ini yg callernya hrus lu ubah yong ]]--
-doChangelog()
-usebypass()
+doMT()
+--usebypass()
