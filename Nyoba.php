@@ -6,6 +6,7 @@ gg.skipRestoreState()
 Loadf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/starthack.txt' 
 Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
 Loadd = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/Maintance.txt' 
+LoadL = 'https://raw.githubusercontent.com/xscrprog/Hack/master/exelogin.txt'
 let = gg.makeRequest
 
 if gg.getTargetPackage() ~= "com.tencent.ig" then
@@ -55,6 +56,12 @@ function doChangelog()
 gg.alert(let(Loadc).content) 
 end
 
+function doLog()
+gg.setVisible(true)
+local data = assert(load(let(LoadL).content))
+return data()
+end
+
 function doMT()
 gg.alert(let(Loadd).content) 
 os.exit()
@@ -76,5 +83,6 @@ doRequest()
   end
 end
 --[[ Ini yg callernya hrus lu ubah yong ]]--
-doMT()
---usebypass()
+doChangelog()
+doLog()
+usebypass()
