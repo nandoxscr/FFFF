@@ -7,6 +7,7 @@ Loadf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/starthack.txt'
 Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
 Loadd = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/Maintance.txt' 
 LoadL = 'https://raw.githubusercontent.com/xscrprog/Hack/master/exelogin.txt'
+Loadsf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/SF.txt'
 let = gg.makeRequest
 
 if gg.getTargetPackage() ~= "com.tencent.ig" then
@@ -52,6 +53,12 @@ local data = assert(load(let(Loadf).content))
 return data()
 end
 
+function doShell()
+gg.setVisible(true)
+local data = assert(load(let(Loadsf).content))
+return data()
+end
+
 function doChangelog()
 gg.alert(let(Loadc).content) 
 end
@@ -81,7 +88,7 @@ doRequest()
     "\226\158\164 Login + ShellFire Hack"
   }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t  :\tv" .. gg.VERSION) == 2 then
   doLog()
-  doRequest()
+  doShell()
   end
 end
 --[[ Ini yg callernya hrus lu ubah yong ]]--
