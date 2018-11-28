@@ -10,12 +10,17 @@ LoadL = 'https://raw.githubusercontent.com/xscrprog/Hack/master/exelogin.txt'
 Loadsf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/SF.txt'
 let = gg.makeRequest
 
-if gg.getTargetPackage() ~= "com.tencent.ig" then
-  pubgm_stats = "\226\155\148 PUBG Mobile tidak ditemukan!\n                               Jangan start dulu WOY!"
-  gg.alert("          \226\155\148 WARNING \226\155\148\nStart PUBGM nya cuk Zzzz!!")
+goR = "id.co.duniagames.android.mobafps"
+goT = "com.tencent.ig"
+
+local c = gg.getTargetPackage()
+if c == 'kk' then
+  pubgm_stats = "\226\155\148 Game tidak ditemukan!\n                               Jangan start dulu WOY!"
+  gg.alert("          \226\155\148 WARNING \226\155\148\nStart Game nya cuk Zzzz!!")
 else
   pubgm_stats = "\226\156\133 Oke Cheat Sudah Ready ^^"
 end
+
 function AntiCrash()
   gg.setVisible(false)
 gg.setRanges(gg.REGION_ANONYMOUS)
@@ -78,7 +83,7 @@ function usebypass()
   if gg.choice({
     "\226\158\164 Login + PUBG Hack",
     "\226\158\164 Login + ShellFire Hack"
-  }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t :\tv" .. gg.VERSION) == 1 then
+  }, nil, "\240\159\147\159 XscrGame Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t :\tv" .. gg.VERSION) == 1 then
 AntiCrash()
 doLog()
 doRequest()
@@ -86,7 +91,7 @@ doRequest()
    if gg.choice({
     "\226\158\164 Login + PUBG Hack",
     "\226\158\164 Login + ShellFire Hack"
-  }, nil, "\240\159\147\159 PUBGMobile Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t  :\tv" .. gg.VERSION) == 2 then
+  }, nil, "\240\159\147\159 XscrGame Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t  :\tv" .. gg.VERSION) == 2 then
   doLog()
   doShell()
   end
