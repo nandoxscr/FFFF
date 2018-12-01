@@ -7,7 +7,7 @@ Loadf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/starthack.txt'
 Loadc = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/ChangeLog.txt' 
 Loadd = 'https://raw.githubusercontent.com/nandoxscr/FFFF/master/Maintance.txt' 
 LoadL = 'https://raw.githubusercontent.com/xscrprog/Hack/master/exelogin.txt'
-Loadsf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/SF.txt'
+Loadsf = 'https://raw.githubusercontent.com/xscrprog/Hack/master/1starthack.txt'
 let = gg.makeRequest
 
 goR = "id.co.duniagames.android.mobafps"
