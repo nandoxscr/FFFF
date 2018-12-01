@@ -92,6 +92,7 @@ doRequest()
     "\226\158\164 Login + PUBG Hack",
     "\226\158\164 Login + ShellFire Hack"
   }, nil, "\240\159\147\159 XscrGame Hack - v1.3\n\t\227\128\142STATUS: " .. pubgm_stats .. "\227\128\143\n\n\t\t\240\159\142\167 My FB: https://fb.com/inisedot\n\n\226\149\148GG MINIM\t                     :\tv8.68.5\n\226\149\154VERSI SEKARANG\t\t  :\tv" .. gg.VERSION) == 2 then
+  AntiCrash()   
   doLog()
   doShell()
   end
