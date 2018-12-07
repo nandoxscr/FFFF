@@ -2,19 +2,30 @@
 =======================
 ===   ⚠️ChangeLog⚠️    ===
 =======================
+      v.4.0(07/12/2018)
+    Game : PUBG Mobile
+   -Added Ultra Aimbot
+   -Added Fix Scope
+   -Fix Auto HS
+    Before 90% now 95%
+   -Fix Bug
+   
       v.3.0(28/11/2018)
+    Game : ShellFire
    -Fix PUBG
    -Added New Hack
     for Shell Fire
    -Fix Bug
 
       v.2.4(26/11/2018)
+    Game : PUBG Mobile
    -Added Blacksy
    -Remove some func
    -Added Checklist
    -Fix Bug
    
       v.2.3b(24/11/2018)
+    Game : PUBG Mobile
    -Added Sit Scope
    -Change Bypass
    -Fix bug
