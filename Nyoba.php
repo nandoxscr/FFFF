@@ -1,5 +1,5 @@
 
-gg.require("8.68.5")
+
 gg.setRanges(bit32.bxor(gg.REGION_ANONYMOUS, gg.REGION_C_ALLOC, gg.REGION_JAVA_HEAP, gg.REGION_C_HEAP, gg.REGION_C_DATA, gg.REGION_C_BSS, gg.REGION_BAD))
 gg.skipRestoreState()
 
