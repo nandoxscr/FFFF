@@ -48,8 +48,7 @@ gg.getResults(100)
 gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.toast("Bypass Has been active")
-gg.alert("Kupon Noob")
+gg.alert("Kupon & Doyok Noob\n Nando is GGWP ty\n No Comment plz !!")
 end
 
 function doRequest() 
