@@ -2,6 +2,11 @@
 =======================
 ===   ⚠️ChangeLog⚠️    ===
 =======================
+      v.5.0(13/12/2018)
+    Game : PUBG Mobile
+   -Added Wallhack Doyok
+   -Fix Bug
+   
       v.4.0(07/12/2018)
     Game : PUBG Mobile
    -Added Ultra Aimbot
